@@ -72,10 +72,13 @@ Setelah di Run, maka akan diketahui langkah-langkah dalam pencapaian goal state 
 
 > >  b.	Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang
 > >  bersebelahan dengan posisi kosong (0) ke arah yang seharusnya unutk mrndapatkan Goal Statenya.
-> > c.	Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan 
+> > 
+> > c.	Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
+> > 
 > >  d.	Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan
 
-   >  Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 13 langkah untuk menuju dari Root State ke Goal State. 
+   >  Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 13 langkah untuk menuju dari Root State ke Goal State.
+> 
    >  Pada percobaan point 2 untuk mencapai goal state yang diinginkan diperlukan sebanyak 13 langkah sedangkan pada percobaan point 1 hanya diperlukan sebanyak 6 langkah untuk mencapai goal state yang diinginkan. Hal ini dikarenakan puzzle pada point 2 memiliki jarak yang lebih panjang dari root state ke goal state daripada point 1 atau memiliki posisi yang lebih teracak dari point 1. Oleh karena itu pada point 2 diperlukan langkah yang lebih banyak dalam mencapai goal state yang diinginkan.
 
 
