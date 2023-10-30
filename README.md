@@ -67,7 +67,7 @@ puzzlenya mencapai goal state.
 
   >   kemudian untuk mendapatkan hasil, makan Run kode program dan akan dihasilkan sebagai berikut :
 
-Setelah di Run, maka akan diketahui langkah-langkah dalam pencapaian goal state sebegai berikut 
+> Setelah di Run, maka akan diketahui langkah-langkah dalam pencapaian goal state sebegai berikut 
 > >  a.	Pada langkah awal menginisialisasi root state terlebih dahulu :
 
 > >  b.	Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang
@@ -80,6 +80,62 @@ Setelah di Run, maka akan diketahui langkah-langkah dalam pencapaian goal state 
    >  Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 13 langkah untuk menuju dari Root State ke Goal State.
 > 
    >  Pada percobaan point 2 untuk mencapai goal state yang diinginkan diperlukan sebanyak 13 langkah sedangkan pada percobaan point 1 hanya diperlukan sebanyak 6 langkah untuk mencapai goal state yang diinginkan. Hal ini dikarenakan puzzle pada point 2 memiliki jarak yang lebih panjang dari root state ke goal state daripada point 1 atau memiliki posisi yang lebih teracak dari point 1. Oleh karena itu pada point 2 diperlukan langkah yang lebih banyak dalam mencapai goal state yang diinginkan.
+
+3. Mengubah initial dan goal state pada program seperti pada gambar 5.9 : 
+ 
+> Kemudian untuk mendapatkan hasil, maka Run Program dan akan dihasilkan sebagai berikut :
+
+ 
+> Setelah program di run, maka akan diketahui langkah-langkah dalam mencapai Goal State sebagai berikut: 
+>> 	a) Pada langkah awal menginisialisasi root state terlebih dahulu : 
+ 
+ >> b) Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya utnutk mrndapatkan Goal Statenya.
+> > 
+> > c) Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
+> >
+> > Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan:
+
+ 
+> Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 20 langkah untuk menuju dari Root State ke Goal State. 
+
+> Pada percobaan point 3 untuk mencapai goal state yang diinginkan diperlukan sebanyak 20 langkah sedangkan pada percobaan point 1 hanya diperlukan sebanyak 6 langkah dan percobaan point 2 diperlukan 13 langkah untuk mencapai goal state yang diinginkan. Hal ini dikarenakan puzzle pada point 3 memiliki jarak yang lebih panjang dari root state ke goal state daripada point 1 dan point 2 atau memiliki posisi yang lebih teracak dari point 1 dan point 2. Oleh karena itu pada point 3 diperlukan langkah yang lebih banyak dalam mencapai goal state yang diinginkan.
+
+4.	Mengubah initial dan Goal Staet pada program seperti pada gambar 5.10 :
+ 
+> Kemudian untuk mendapatkan hasil, maka Run Program dan akan dihasilkan sebagai berikut :
+ 
+> Setelah program di run, maka akan diketahui langkah-langkah dalam mencapai Goal State sebagai berikut: 
+>> a)	Pada langkah awal menginisialisasi root state terlebih dahulu : 
+ 
+>> b)	Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya utnutk mrndapatkan Goal Statenya.
+>> 
+>> c)	Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
+>> 
+>> d)	Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan:
+ 
+> Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 16 langkah untuk menuju dari Root State ke Goal State. 
+
+> Pada percobaan ini dapat kita perhatikan bahwa pertama root dari keempat percobaan sangat berbeda. Root dalam percobaan 3 memiliki urutan angka yang lebih kompleks dibandingkan dengan Root dalam percobaan lainnya. Kedua, solusi dari keempat percobaan juga berbeda. Dalam percobaan 1, solusi adalah 1 6 5 8 0 4 2 7 3, dalam percobaan 2, solusi adalah 1 2 3 4 5 6 7 8 0, sedangkan pada percobaan 3, solusi adalah 7 6 5 8 0 4 1 2 3.
+
+> Kesimpulannya, meskipun keempat percobaan dapat mencapai solusi, perbedaan pada Root dan solusi menunjukkan bahwa program dimulai dari keadaan awal yang berbeda dan mencapai tujuan yang berbeda.
+
+5.	Untuk menyelesaikan puzzle seperti pada gambar 5.11 perlu dilakukan perubahan tipe data pada program yang awalnya ’int’ menjadi tipe data ’String’ seperti pada lampiran.
+> Ubah initial dan goal pada program seperti dengan gambar 5.10 sebagai berikut: Run program dan didapatkan hasil sebagai berikut:
+ 
+> Setelah program di run, maka akan diketahui langkah-langkah dalam mencapai Goal State sebagai berikut:
+> 
+>> a)	Pada langkah awal menginisialisasi root state terlebih dahulu : 
+ 
+>> b)	Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya utnutk mrndapatkan Goal Statenya.
+>> 
+>> c)	Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
+>>  
+>> d)	Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan, namun pada langkah ini tidak menemukan hasil dikarenakan node yang sangat teracak dan jarak antara root dan goal state sangat jauh. 
+
+> Setiap langkah mewakili langkah perpindahan ubin yang dilakukan untuk mencapai goal state. Algoritma mencoba berbagai kombinasi perpindahan ubin untuk menemukan jalur yang paling efisien menuju goal state. 
+
+> Pada percobaan ini untuk mencapai nilai goal state diperlikan langkah yang panjang, dikarenakan posisi pada root state dan goal state sangat jauh, hal ini juga disebabkan karena node sangat teracak. Sehingga pada percobaan ini belum ada hasil yang diperoleh (gagal). 
+
 
 
        
