@@ -32,7 +32,8 @@ puzzlenya mencapai goal state.
 
 **PENYELESAIAN**
 1. Berikut mengenai Class EighPuzzelSearch, EightPuzzleSpace, dan Node
-   **a) Eight Puzzele Search Class**
+
+    **a) Eight Puzzele Search Class**
         EightPuzzleSearch Class bertugas melakukan pencarian solusi untuk masalah
    >> puzzle 8 angka. Kelas ini bergantung pada kelas EightPuzzleSpace untuk
    >> mendapatkan informasi tentang ruang pencarian dan menggunakan kelas Node
@@ -42,6 +43,7 @@ puzzlenya mencapai goal state.
    >> simpul terbaik dari daftar terbuka (getBestNode), mendapatkan biaya
    >> sebelumnya dari simpul (getPreviousCost), mencetak jalur solusi
    >> (printPath), dan menjalankan algoritma pencarian (run).
+
  **b)	EightPuzzleSpace Class**
        EightPuzzleSpace Class berperan sebagai wadah yang menangani operasi yang
 >  > berhubungan dengan ruang pencarian untuk masalah puzzle 8 angka. Kelas ini
@@ -50,7 +52,8 @@ puzzlenya mencapai goal state.
 >  > (getSuccessors). Tugas utama kelas ini adalah mengelola konfigurasi awal dan
 >  > tujuan dari puzzle 8 angka serta menentukan langkah-langkah yang dapat
 >  > diambil dari suatu keadaan puzzle.
-  **c)	Node Class**  
+
+>  **c)	Node Class**  
        Node Class  adalah representasi dari simpul atau node dalam struktur data
 >  > graf. Setiap simpul memiliki atribut state, yang merupakan array integer
 >  > dengan panjang 9, yang menggambarkan keadaan dari puzzle 8 angka. Atribut
