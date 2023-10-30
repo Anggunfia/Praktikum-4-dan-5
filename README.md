@@ -31,3 +31,33 @@ dan goal statenya Gambar 5.11. Kemudian tentukan langkah-langkah mana saja sehin
 puzzlenya mencapai goal state.
 
 **PENYELESAIAN**
+1. Berikut mengenai Class EighPuzzelSearch, EightPuzzleSpace, dan Node
+   **a) Eight Puzzele Search Class**
+        EightPuzzleSearch Class bertugas melakukan pencarian solusi untuk masalah
+   >> puzzle 8 angka. Kelas ini bergantung pada kelas EightPuzzleSpace untuk
+   >> mendapatkan informasi tentang ruang pencarian dan menggunakan kelas Node
+   >> untuk  mewakili simpul dalam pencarian. Selain itu, Kelas EightPuzzleSearch
+   >> mengelola dua daftar, yaitu daftar terbuka (open) dan daftar tertutup
+   >> (closed). Kelas ini menyediakan berbagai metode, termasuk untuk mendapatkan
+   >> simpul terbaik dari daftar terbuka (getBestNode), mendapatkan biaya
+   >> sebelumnya dari simpul (getPreviousCost), mencetak jalur solusi
+   >> (printPath), dan menjalankan algoritma pencarian (run).
+ **b)	EightPuzzleSpace Class**
+       EightPuzzleSpace Class berperan sebagai wadah yang menangani operasi yang
+>  > berhubungan dengan ruang pencarian untuk masalah puzzle 8 angka. Kelas ini
+>  > menyediakan metode untuk mendapatkan simpul awal (getRoot), mengambil tujuan
+>  > (getGoal), dan menghasilkan daftar suksesor dari suatu simpul tertentu
+>  > (getSuccessors). Tugas utama kelas ini adalah mengelola konfigurasi awal dan
+>  > tujuan dari puzzle 8 angka serta menentukan langkah-langkah yang dapat
+>  > diambil dari suatu keadaan puzzle.
+  **c)	Node Class**  
+       Node Class  adalah representasi dari simpul atau node dalam struktur data
+>  > graf. Setiap simpul memiliki atribut state, yang merupakan array integer
+>  > dengan panjang 9, yang menggambarkan keadaan dari puzzle 8 angka. Atribut
+>  > lainnya mencakup biaya (cost) yang terkait dengan simpul, parent yang
+>  > mengacu pada simpul pendahulu, dan daftar suksesor (successors) yang
+>  > merupakan daftar simpul anak dari simpul saat ini. Kelas ini juga memiliki
+>  > metode untuk mengubah simpul menjadi bentuk string, memeriksa kesetaraan,
+>  > dan mengambil jalur dari simpul ke akar.
+
+       
