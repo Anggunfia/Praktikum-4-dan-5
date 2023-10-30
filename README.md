@@ -8,11 +8,84 @@
 
 **PENYELESAIAN**
 1. Algoritma BFS (Breadth-First Search) adalah salah satu algoritma pencarian dalam ilmu komputer yang digunakan untuk menjelajahi atau mencari informasi dalam graf atau struktur data berdasarkan tingkat jarak atau kedalaman dari node awal. Algoritma ini bekerja dengan cara menjelajahi node-node yang terhubung secara langsung dengan node awal sebelum mengeksplorasi node-node yang lebih dalam atau lebih jauh. Berikut merupakan langkah Pada Algoritma BFS.
-   * aj
-   * ass
-2. aba\
+>>  a)	  menginisiasi node awal, yaitu node 3, kemudian dimasukkan ke dalam antrian.
+
+>>  b)	Selanjutnya, node 3 akan mengeksplorasi node-node yang terhubung langsung dengan itu, yaitu node 2 dan node 4, karena keduanya memiliki jarak 1 dari node 3. Node 4 akan melanjutkan dengan mengeksplorasi node 1, node 6, dan node 5 yang terhubung dengannya. 
+
+>> c)	Selanjutnya, node 5 akan mengeksplorasi node 8 dan node 7. 
+
+>> d)	Proses ini akan terus berlanjut sampai semua node yang terhubung dengan node awal telah diperiksa.
+
+Oleh karena itu, pada akhir proses BFS, node-node 8, 6, dan 7 akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
+
+2. Kemudian untuk membuat tree seperti pada gambar 4.5 method static void main diubah seperti berikut:
    ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Gambar%201.png?raw=true)
-4. a
+   
+Selanjutnya Run program maka akan didapatkan hasil sebagai berikut:
+ 
+Hasil tersebut mengkonfirmasi kesesuaian hasil tree yang dihasilkan oleh program dengan gambar 4.5. 
+> a)	Untuk mencari node 5, algoritma BFS pertama-tama dimulai dengan langkah memasukkan node 1 ke dalam antrian.
+>
+> b)	Selanjutnya, node 1 akan mengeksplorasi node 2 dan node 3, yang secara langsung terhubung dengan node 1 atau memiliki kedalaman tingkat 1.
+>
+> c)	Kemudian, node 3 akan melanjutkan dengan mengeksplorasi node yang memiliki kedalaman 2, dimulai dengan mengecek node 4, node 5, node 6, dan node 7.
+>
+> d)	Setelah node 5 ditemukan, proses akan terus berlanjut hingga semua node yang terhubung dengan node awal telah diperiksa. 
+
+Oleh karena itu, pada akhir proses BFS, node 5 akan ditemukan dan diolah sesuai dengan ketentuan algoritma BFS.
+
+3.	Pembuatan tree seperti pada gambar 4.6 menggunakan method static void main diubah seperti berikut:
+ 
+ 
+Kemudian Run program dan didapatkan hasil sebagai berikut:
+ 
+Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.6. 
+> a)	Untuk menemukan node 9 algoritma BFS pertama-tama dimulai dengan memasukkan node 1 ke dalam antrian.
+>
+> b)	Kemudian dilanjutkan node 1 akan memeriksa node 2, node 3, dan node 4 yang terhubung langsung dengan node 1 atau node yang memiliki tingkat kedalaman 1.
+>
+> c)	Dilanjutkan node 4 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 5, node 6, node 7, dan node 8.
+>
+> d)	Kemudian node 8 akan memeriksa node 9, setelah menemukan node 9 proses akan terus berlanjut untuk memeriksa node 10, node 11, dan node 12 sampai semua node yang terhubung dengan node awal telah diperiksa. 
+
+Dengan demikian, pada akhir proses BFS, node 9 akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
+
+4.	Pembuatan tree seperti pada gambar 4.7, pada pembuatan tree kali ini akan dilakukan beberapa perubahan pada program.
+
+> 1)	Pada kelas Node, untuk dapat menerima huruf maka Ganti tipe data variabel ’data’ dari yang awalnya ’int’ menjadi ’String’.
+>    
+> 2)	Kemudian pada Metode main, Masukkan nilai node dengan tipe data string sebagai berikut.
+>    
+> 3)	Selanjutnya pada Metode addEdge dan bfs, Masukkan logika pemrosesan data untuk tipe data String sebagai berikut.
+ 
+Kemudian Run program maka akan didapatkan hasil sebagai berikut:
+ 
+Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.7. 
+> a)	Untuk menemukan node 3 (C) algoritma BFS pertama-tama dimulai dengan memasukkan node 6 (F) ke dalam antrian.
+>
+> b)	Kemudian dilanjutkan node 6 akan memeriksa node 2 (B), dan node 7 (G) yang terhubung langsung dengan node 6 atau node yang memiliki tingkat kedalaman 1.
+>
+> c)	selanjutnya node 7 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 1 (A), node 4 (D), dan node 9 (I).
+>
+> d)	 Kemudian node 9 akan memeriksa node 3, setelah menemukan node 3 (C) proses akan terus berlanjut untuk memeriksa node 5 (E), dan node 8 (H) sampai semua node yang terhubung dengan node awal telah diperiksa.
+
+Dengan demikian, pada akhir proses BFS, node 3 (C) akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
+
+
+LAMPIRAN
+1.	Lampiran 1: 
+ 
+Gambar 4.5 Tree 1
+
+2.	Lampiran 2: 
+ 
+Gambar 4.6 Tree 2
+
+3.	Lampiran 3: 
+ 
+Gambar 4.7 Tree 3
+
+
 5. a
 ## Praktikum 5
 **TUGAS**
