@@ -10,10 +10,10 @@
 1. Algoritma BFS (Breadth-First Search) adalah salah satu algoritma pencarian dalam ilmu komputer yang digunakan untuk menjelajahi atau mencari informasi dalam graf atau struktur data berdasarkan tingkat jarak atau kedalaman dari node awal. Algoritma ini bekerja dengan cara menjelajahi node-node yang terhubung secara langsung dengan node awal sebelum mengeksplorasi node-node yang lebih dalam atau lebih jauh. Berikut merupakan langkah Pada Algoritma BFS.
    * aj
    * ass
-3. a
-   
+2. aba\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Gambar%201.png?raw=true)
+4. a
 5. a
-https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Gambar%201.png
 ## Praktikum 5
 **TUGAS**
 1. Pelajari Class EighPuzzelSearch, EightPuzzleSpace, dan Node.
