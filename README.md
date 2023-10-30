@@ -11,8 +11,9 @@
    * aj
    * ass
 3. a
-4. a
-
+   
+5. a
+https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Gambar%201.png
 ## Praktikum 5
 **TUGAS**
 1. Pelajari Class EighPuzzelSearch, EightPuzzleSpace, dan Node.
