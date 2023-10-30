@@ -8,85 +8,66 @@
 
 **PENYELESAIAN**
 1. Algoritma BFS (Breadth-First Search) adalah salah satu algoritma pencarian dalam ilmu komputer yang digunakan untuk menjelajahi atau mencari informasi dalam graf atau struktur data berdasarkan tingkat jarak atau kedalaman dari node awal. Algoritma ini bekerja dengan cara menjelajahi node-node yang terhubung secara langsung dengan node awal sebelum mengeksplorasi node-node yang lebih dalam atau lebih jauh. Berikut merupakan langkah Pada Algoritma BFS.
->>  a)	  menginisiasi node awal, yaitu node 3, kemudian dimasukkan ke dalam antrian.
-
->>  b)	Selanjutnya, node 3 akan mengeksplorasi node-node yang terhubung langsung dengan itu, yaitu node 2 dan node 4, karena keduanya memiliki jarak 1 dari node 3. Node 4 akan melanjutkan dengan mengeksplorasi node 1, node 6, dan node 5 yang terhubung dengannya. 
-
->> c)	Selanjutnya, node 5 akan mengeksplorasi node 8 dan node 7. 
-
->> d)	Proses ini akan terus berlanjut sampai semua node yang terhubung dengan node awal telah diperiksa.
-
+- Menginisiasi node awal, yaitu node 3, kemudian dimasukkan ke dalam antrian.
+- Selanjutnya, node 3 akan mengeksplorasi node-node yang terhubung langsung dengan itu, yaitu node 2 dan node 4, karena keduanya memiliki jarak 1 dari node 3. Node 4 akan melanjutkan dengan mengeksplorasi node 1, node 6, dan node 5 yang terhubung dengannya.
+- Selanjutnya, node 5 akan mengeksplorasi node 8 dan node 7.
+- Proses ini akan terus berlanjut sampai semua node yang terhubung dengan node awal telah diperiksa.\
+\
 Oleh karena itu, pada akhir proses BFS, node-node 8, 6, dan 7 akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
 
-2. Kemudian untuk membuat tree seperti pada gambar 4.5 method static void main diubah seperti berikut:
-   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Gambar%201.png?raw=true)
-   
-Selanjutnya Run program maka akan didapatkan hasil sebagai berikut:
- 
-Hasil tersebut mengkonfirmasi kesesuaian hasil tree yang dihasilkan oleh program dengan gambar 4.5. 
-> a)	Untuk mencari node 5, algoritma BFS pertama-tama dimulai dengan langkah memasukkan node 1 ke dalam antrian.
->
-> b)	Selanjutnya, node 1 akan mengeksplorasi node 2 dan node 3, yang secara langsung terhubung dengan node 1 atau memiliki kedalaman tingkat 1.
->
-> c)	Kemudian, node 3 akan melanjutkan dengan mengeksplorasi node yang memiliki kedalaman 2, dimulai dengan mengecek node 4, node 5, node 6, dan node 7.
->
-> d)	Setelah node 5 ditemukan, proses akan terus berlanjut hingga semua node yang terhubung dengan node awal telah diperiksa. 
-
+2. Kemudian untuk membuat tree seperti pada gambar 4.5 method static void main diubah seperti berikut:\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%202%20A.png?raw=true) \
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%202%20B.png?raw=true) \
+   Selanjutnya Run program maka akan didapatkan hasil sebagai berikut:\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%202%20C.png?raw=true) \
+ Hasil tersebut mengkonfirmasi kesesuaian hasil tree yang dihasilkan oleh program dengan gambar 4.5.
+- Untuk mencari node 5, algoritma BFS pertama-tama dimulai dengan langkah memasukkan node 1 ke dalam antrian.
+- Selanjutnya, node 1 akan mengeksplorasi node 2 dan node 3, yang secara langsung terhubung dengan node 1 atau memiliki kedalaman tingkat 1.
+- Kemudian, node 3 akan melanjutkan dengan mengeksplorasi node yang memiliki kedalaman 2, dimulai dengan mengecek node 4, node 5, node 6, dan node 7.
+- Setelah node 5 ditemukan, proses akan terus berlanjut hingga semua node yang terhubung dengan node awal telah diperiksa. \
+\
 Oleh karena itu, pada akhir proses BFS, node 5 akan ditemukan dan diolah sesuai dengan ketentuan algoritma BFS.
 
-3.	Pembuatan tree seperti pada gambar 4.6 menggunakan method static void main diubah seperti berikut:
- 
- 
-Kemudian Run program dan didapatkan hasil sebagai berikut:
- 
-Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.6. 
-> a)	Untuk menemukan node 9 algoritma BFS pertama-tama dimulai dengan memasukkan node 1 ke dalam antrian.
->
-> b)	Kemudian dilanjutkan node 1 akan memeriksa node 2, node 3, dan node 4 yang terhubung langsung dengan node 1 atau node yang memiliki tingkat kedalaman 1.
->
-> c)	Dilanjutkan node 4 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 5, node 6, node 7, dan node 8.
->
-> d)	Kemudian node 8 akan memeriksa node 9, setelah menemukan node 9 proses akan terus berlanjut untuk memeriksa node 10, node 11, dan node 12 sampai semua node yang terhubung dengan node awal telah diperiksa. 
-
+3.	Pembuatan tree seperti pada gambar 4.6 menggunakan method static void main diubah seperti berikut:\
+   Kemudian Run program dan didapatkan hasil sebagai berikut:\
+  	![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%203%20A.png?raw=true)\
+  	![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%203%20B.png?raw=true)\
+  	Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.6.\
+  	![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%203%20C.png?raw=true)
+- Untuk menemukan node 9 algoritma BFS pertama-tama dimulai dengan memasukkan node 1 ke dalam antrian.
+- Kemudian dilanjutkan node 1 akan memeriksa node 2, node 3, dan node 4 yang terhubung langsung dengan node 1 atau node yang memiliki tingkat kedalaman 1.
+- Dilanjutkan node 4 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 5, node 6, node 7, dan node 8.
+- Kemudian node 8 akan memeriksa node 9, setelah menemukan node 9 proses akan terus berlanjut untuk memeriksa node 10, node 11, dan node 12 sampai semua node yang terhubung dengan node awal telah diperiksa.\
+\
 Dengan demikian, pada akhir proses BFS, node 9 akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
 
 4.	Pembuatan tree seperti pada gambar 4.7, pada pembuatan tree kali ini akan dilakukan beberapa perubahan pada program.
-
-> 1)	Pada kelas Node, untuk dapat menerima huruf maka Ganti tipe data variabel ’data’ dari yang awalnya ’int’ menjadi ’String’.
->    
-> 2)	Kemudian pada Metode main, Masukkan nilai node dengan tipe data string sebagai berikut.
->    
-> 3)	Selanjutnya pada Metode addEdge dan bfs, Masukkan logika pemrosesan data untuk tipe data String sebagai berikut.
- 
-Kemudian Run program maka akan didapatkan hasil sebagai berikut:
- 
-Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.7. 
-> a)	Untuk menemukan node 3 (C) algoritma BFS pertama-tama dimulai dengan memasukkan node 6 (F) ke dalam antrian.
->
-> b)	Kemudian dilanjutkan node 6 akan memeriksa node 2 (B), dan node 7 (G) yang terhubung langsung dengan node 6 atau node yang memiliki tingkat kedalaman 1.
->
-> c)	selanjutnya node 7 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 1 (A), node 4 (D), dan node 9 (I).
->
-> d)	 Kemudian node 9 akan memeriksa node 3, setelah menemukan node 3 (C) proses akan terus berlanjut untuk memeriksa node 5 (E), dan node 8 (H) sampai semua node yang terhubung dengan node awal telah diperiksa.
-
+- Pada kelas Node, untuk dapat menerima huruf maka Ganti tipe data variabel ’data’ dari yang awalnya ’int’ menjadi ’String’.\
+  ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%204%20A.png?raw=true)
+- Kemudian pada Metode main, Masukkan nilai node dengan tipe data string sebagai berikut.\
+  ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%204%20B.png?raw=true)
+- Selanjutnya pada Metode addEdge dan bfs, Masukkan logika pemrosesan data untuk tipe data String sebagai berikut.\
+  ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%204%20C.png?raw=true)
+\
+Kemudian Run program maka akan didapatkan hasil sebagai berikut:\
+![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Nomor%204%20D.png?raw=true)
+Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.7.
+   - Untuk menemukan node 3 (C) algoritma BFS pertama-tama dimulai dengan memasukkan node 6 (F) ke dalam antrian.
+   - Kemudian dilanjutkan node 6 akan memeriksa node 2 (B), dan node 7 (G) yang terhubung langsung dengan node 6 atau node yang memiliki tingkat kedalaman 1.
+   - Selanjutnya node 7 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 1 (A), node 4 (D), dan node 9 (I).
+   - Kemudian node 9 akan memeriksa node 3, setelah menemukan node 3 (C) proses akan terus berlanjut untuk memeriksa node 5 (E), dan node 8 (H) sampai semua node yang terhubung dengan node awal telah diperiksa.\
+\
 Dengan demikian, pada akhir proses BFS, node 3 (C) akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
 
 
-LAMPIRAN
-1.	Lampiran 1: 
- 
-Gambar 4.5 Tree 1
+**LAMPIRAN**
+1.	Lampiran 1: Gambar 4.5 Tree 1\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Lampiran%201.png?raw=true)
+3.	Lampiran 2: Gambar 4.6 Tree 2\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Lampiran%202.png?raw=true)
+5.	Lampiran 3: Gambar 4.7 Tree 3\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%204%20Lampiran%203.png?raw=true)
 
-2.	Lampiran 2: 
- 
-Gambar 4.6 Tree 2
-
-3.	Lampiran 3: 
- 
-Gambar 4.7 Tree 3
-
-
-5. a
 ## Praktikum 5
 **TUGAS**
 1. Pelajari Class EighPuzzelSearch, EightPuzzleSpace, dan Node.
@@ -104,73 +85,50 @@ dan goal statenya Gambar 5.11. Kemudian tentukan langkah-langkah mana saja sehin
 puzzlenya mencapai goal state.
 
 **PENYELESAIAN**
-1. Berikut mengenai Class EighPuzzelSearch, EightPuzzleSpace, dan Node
-
-  >   **a) Eight Puzzele Search Class**
-   >> EightPuzzleSearch Class bertugas melakukan pencarian solusi untuk masalah
-   >> puzzle 8 angka. Kelas ini bergantung pada kelas EightPuzzleSpace untuk
-   >> mendapatkan informasi tentang ruang pencarian dan menggunakan kelas Node
-   >> untuk  mewakili simpul dalam pencarian. Selain itu, Kelas EightPuzzleSearch
-   >> mengelola dua daftar, yaitu daftar terbuka (open) dan daftar tertutup
-   >> (closed). Kelas ini menyediakan berbagai metode, termasuk untuk mendapatkan
-   >> simpul terbaik dari daftar terbuka (getBestNode), mendapatkan biaya
-   >> sebelumnya dari simpul (getPreviousCost), mencetak jalur solusi
-   >> (printPath), dan menjalankan algoritma pencarian (run).
-
->  **b)	EightPuzzleSpace Class**
->>   EightPuzzleSpace Class berperan sebagai wadah yang menangani operasi yang
->  > berhubungan dengan ruang pencarian untuk masalah puzzle 8 angka. Kelas ini
->  > menyediakan metode untuk mendapatkan simpul awal (getRoot), mengambil tujuan
->  > (getGoal), dan menghasilkan daftar suksesor dari suatu simpul tertentu
->  > (getSuccessors). Tugas utama kelas ini adalah mengelola konfigurasi awal dan
->  > tujuan dari puzzle 8 angka serta menentukan langkah-langkah yang dapat
->  > diambil dari suatu keadaan puzzle.
-
->  **c)	Node Class**  
-  >> Node Class  adalah representasi dari simpul atau node dalam struktur data
->  > graf. Setiap simpul memiliki atribut state, yang merupakan array integer
->  > dengan panjang 9, yang menggambarkan keadaan dari puzzle 8 angka. Atribut
->  > lainnya mencakup biaya (cost) yang terkait dengan simpul, parent yang
->  > mengacu pada simpul pendahulu, dan daftar suksesor (successors) yang
->  > merupakan daftar simpul anak dari simpul saat ini. Kelas ini juga memiliki
->  > metode untuk mengubah simpul menjadi bentuk string, memeriksa kesetaraan,
->  > dan mengambil jalur dari simpul ke akar.
-    Run Kode program untuk mendapatkan hasil seperti dibawah ini :
-2. Mengubah initial dan goal state pada kode program seperti pada gambar 5.8 :
-
- kemudian untuk mendapatkan hasil, makan Run kode program dan akan dihasilkan sebagai berikut :
-
-Setelah di Run, maka akan diketahui langkah-langkah dalam pencapaian goal state sebegai berikut 
-> a.	Pada langkah awal menginisialisasi root state terlebih dahulu :
-
->  b.	Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya unutk mrndapatkan Goal Statenya.
-> 
-> c.	Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
-> 
->  d.	Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan
+1. Berikut mengenai Class EighPuzzelSearch, EightPuzzleSpace, dan Node.\
+   \
+   **a) Eight Puzzele Search Class**\
+   EightPuzzleSearch Class bertugas melakukan pencarian solusi untuk masalah puzzle 8 angka. Kelas ini bergantung pada kelas EightPuzzleSpace untuk mendapatkan informasi tentang ruang pencarian dan menggunakan kelas Node untuk  mewakili simpul dalam pencarian. Selain itu, Kelas EightPuzzleSearch mengelola dua daftar, yaitu daftar terbuka (open) dan daftar tertutup (closed). Kelas ini menyediakan berbagai metode, termasuk untuk mendapatkan simpul terbaik dari daftar terbuka (getBestNode), mendapatkan biaya sebelumnya dari simpul (getPreviousCost), mencetak jalur solusi (printPath), dan menjalankan algoritma pencarian (run).\
+\
+**b)	EightPuzzleSpace Class**\
+EightPuzzleSpace Class berperan sebagai wadah yang menangani operasi yang berhubungan dengan ruang pencarian untuk masalah puzzle 8 angka. Kelas ini menyediakan metode untuk mendapatkan simpul awal (getRoot), mengambil tujuan (getGoal), dan menghasilkan daftar suksesor dari suatu simpul tertentu (getSuccessors). Tugas utama kelas ini adalah mengelola konfigurasi awal dan tujuan dari puzzle 8 angka serta menentukan langkah-langkah yang dapat diambil dari suatu keadaan puzzle.\
+\
+**c)	Node Class**\
+Node Class  adalah representasi dari simpul atau node dalam struktur data graf. Setiap simpul memiliki atribut state, yang merupakan array integer dengan panjang 9, yang menggambarkan keadaan dari puzzle 8 angka. Atribut lainnya mencakup biaya (cost) yang terkait dengan simpul, parent yang mengacu pada simpul pendahulu, dan daftar suksesor (successors) yang merupakan daftar simpul anak dari simpul saat ini. Kelas ini juga memiliki metode untuk mengubah simpul menjadi bentuk string, memeriksa kesetaraan, dan mengambil jalur dari simpul ke akar.\
+\
+Run Kode program untuk mendapatkan hasil seperti dibawah ini :\
+![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%201.png?raw=true)
+2. Mengubah initial dan goal state pada kode program seperti pada gambar 5.8 :\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%202%20A.png?raw=true)\
+   kemudian untuk mendapatkan hasil, makan Run kode program dan akan dihasilkan sebagai berikut :\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%202%20B.jpg?raw=true)\
+   Setelah di Run, maka akan diketahui langkah-langkah dalam pencapaian goal state sebegai berikut.
+   - Pada langkah awal menginisialisasi root state terlebih dahulu :\
+     ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%202%20C.png?raw=true)
+   - Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya unutk mrndapatkan Goal Statenya.
+   - Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
+   - Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan.\
+     ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%202%20D.jpg?raw=true)
 
    Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 13 langkah untuk menuju dari Root State ke Goal State.
 
    Pada percobaan point 2 untuk mencapai goal state yang diinginkan diperlukan sebanyak 13 langkah sedangkan pada percobaan point 1 hanya diperlukan sebanyak 6 langkah untuk mencapai goal state yang diinginkan. Hal ini dikarenakan puzzle pada point 2 memiliki jarak yang lebih panjang dari root state ke goal state daripada point 1 atau memiliki posisi yang lebih teracak dari point 1. Oleh karena itu pada point 2 diperlukan langkah yang lebih banyak dalam mencapai goal state yang diinginkan.
 
-3. Mengubah initial dan goal state pada program seperti pada gambar 5.9 : 
- 
-Kemudian untuk mendapatkan hasil, maka Run Program dan akan dihasilkan sebagai berikut :
-
- 
+3. Mengubah initial dan goal state pada program seperti pada gambar 5.9 :\
+   ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%203%20A.png?raw=true)\
+Kemudian untuk mendapatkan hasil, maka Run Program dan akan dihasilkan sebagai berikut :\
+![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%203%20B.png?raw=true)\
 Setelah program di run, maka akan diketahui langkah-langkah dalam mencapai Goal State sebagai berikut: 
-> a) Pada langkah awal menginisialisasi root state terlebih dahulu : 
- 
- > b) Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya utnutk mrndapatkan Goal Statenya.
->  
-> c) Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
- >
-Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan:
+   - Pada langkah awal menginisialisasi root state terlebih dahulu :\
+  ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%203%20C.png?raw=true)
+   - Kemudian, Algoritma akan mencari langkah-langkah dan menggeser angka yang bersebelahan dengan posisi kosong (0) ke arah yang seharusnya utnutk mrndapatkan Goal Statenya.
+   - Pada setiap iterasi menampilkan langkah demi langkah yang di hasilkan
+   - Kemudian langkah akan berhenti ketika sudah mendapatkan Goal State yang diinginkan:\
+  ![alt text](https://github.com/Anggunfia/Praktikum-4-dan-5/blob/main/Gambar/Praktikum%205%20Nomor%203%20D.png?raw=true)
 
- 
-Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 20 langkah untuk menuju dari Root State ke Goal State. 
+   Pada Setiap langkah yang diambil akan menunjukkan perpindahan angka ke angka untuk mencapai Goal State yang diinginkan. Pada hal ini Al goritma akan mencoba berbagai cara atau kombinasi dari perpindahan ubin-ubin angka untuk menemukan jalan yang paling tepat dan efesien untuk mrnuju pada goal State. Pada hasil diatas langkah yang diperlukan 20 langkah untuk menuju dari Root State ke Goal State.
 
-Pada percobaan point 3 untuk mencapai goal state yang diinginkan diperlukan sebanyak 20 langkah sedangkan pada percobaan point 1 hanya diperlukan sebanyak 6 langkah dan percobaan point 2 diperlukan 13 langkah untuk mencapai goal state yang diinginkan. Hal ini dikarenakan puzzle pada point 3 memiliki jarak yang lebih panjang dari root state ke goal state daripada point 1 dan point 2 atau memiliki posisi yang lebih teracak dari point 1 dan point 2. Oleh karena itu pada point 3 diperlukan langkah yang lebih banyak dalam mencapai goal state yang diinginkan.
+   Pada percobaan point 3 untuk mencapai goal state yang diinginkan diperlukan sebanyak 20 langkah sedangkan pada percobaan point 1 hanya diperlukan sebanyak 6 langkah dan percobaan point 2 diperlukan 13 langkah untuk mencapai goal state yang diinginkan. Hal ini dikarenakan puzzle pada point 3 memiliki jarak yang lebih panjang dari root state ke goal state daripada point 1 dan point 2 atau memiliki posisi yang lebih teracak dari point 1 dan point 2. Oleh karena itu pada point 3 diperlukan langkah yang lebih banyak dalam mencapai goal state yang diinginkan.
 
 4.	Mengubah initial dan Goal Staet pada program seperti pada gambar 5.10 :
  
